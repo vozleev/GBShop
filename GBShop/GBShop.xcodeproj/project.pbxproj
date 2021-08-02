@@ -99,13 +99,10 @@
 		3852B33D26B8669E007ED927 /* GBShop */ = {
 			isa = PBXGroup;
 			children = (
-				3852B33E26B8669E007ED927 /* AppDelegate.swift */,
-				3852B34026B8669E007ED927 /* SceneDelegate.swift */,
-				3852B34226B8669E007ED927 /* ViewController.swift */,
-				3852B34426B8669E007ED927 /* Main.storyboard */,
-				3852B34726B8669F007ED927 /* Assets.xcassets */,
-				3852B34926B8669F007ED927 /* LaunchScreen.storyboard */,
-				3852B34C26B8669F007ED927 /* Info.plist */,
+				385E01DB26B87065005F986B /* Environments */,
+				385E01DA26B8705F005F986B /* Resources */,
+				385E01D926B87055005F986B /* Core */,
+				385E01D826B8704D005F986B /* App */,
 			);
 			path = GBShop;
 			sourceTree = "<group>";
@@ -126,6 +123,73 @@
 				3852B36226B8669F007ED927 /* Info.plist */,
 			);
 			path = GBShopUITests;
+			sourceTree = "<group>";
+		};
+		385E01D826B8704D005F986B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3852B34026B8669E007ED927 /* SceneDelegate.swift */,
+				3852B33E26B8669E007ED927 /* AppDelegate.swift */,
+				385E01DF26B87091005F986B /* Flows */,
+				385E01DE26B87089005F986B /* Assembly */,
+				385E01DD26B87082005F986B /* Entity */,
+				385E01DC26B87071005F986B /* BuisnessLogic */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		385E01D926B87055005F986B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		385E01DA26B8705F005F986B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3852B34726B8669F007ED927 /* Assets.xcassets */,
+				3852B34926B8669F007ED927 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		385E01DB26B87065005F986B /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				3852B34C26B8669F007ED927 /* Info.plist */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		385E01DC26B87071005F986B /* BuisnessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BuisnessLogic;
+			sourceTree = "<group>";
+		};
+		385E01DD26B87082005F986B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		385E01DE26B87089005F986B /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		385E01DF26B87091005F986B /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				3852B34426B8669E007ED927 /* Main.storyboard */,
+				3852B34226B8669E007ED927 /* ViewController.swift */,
+			);
+			path = Flows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
